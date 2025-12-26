@@ -40,7 +40,7 @@ export function Hero() {
           {/* Left side - Text content */}
           <div className="space-y-6 flex-1 fade-up-item opacity-0">
             {/* Improved typography hierarchy and spacing */}
-            <h1 className="text-5xl md:text-7xl font-bold text-foreground text-balance leading-tight">Moneeshwar M</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">Moneeshwar M</h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-pretty">
               AI & Data Science Student | Full Stack Developer
             </p>
