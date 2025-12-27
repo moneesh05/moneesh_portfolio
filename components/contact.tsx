@@ -159,12 +159,12 @@ export function Contact() {
                 <span>Chennai, India</span>
               </div>
             </div>
-            <div className="flex gap-4 pt-10">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-10">
               <Button
                 asChild
                 variant="outline"
                 size="lg"
-                className="gap-2 bg-slate-700/50 backdrop-blur-sm border-slate-600 text-slate-200 hover:text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20"
+                className="w-full sm:w-auto gap-2 bg-slate-700/50 backdrop-blur-sm border-slate-600 text-slate-200 hover:text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20"
               >
                 <a href="/resume.pdf" download="Moneeshwar_Resume.pdf">
                   <Download className="h-5 w-5" />
@@ -175,7 +175,7 @@ export function Contact() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="gap-2 bg-slate-700/50 backdrop-blur-sm border-slate-600 text-slate-200 hover:text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20"
+                className="w-full sm:w-auto gap-2 bg-slate-700/50 backdrop-blur-sm border-slate-600 text-slate-200 hover:text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20"
               >
                 <a href="https://github.com/moneesh05" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
@@ -186,7 +186,7 @@ export function Contact() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="gap-2 bg-slate-700/50 backdrop-blur-sm border-slate-600 text-slate-200 hover:text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20"
+                className="w-full sm:w-auto gap-2 bg-slate-700/50 backdrop-blur-sm border-slate-600 text-slate-200 hover:text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20"
               >
                 <a href="https://www.linkedin.com/in/moneeshwar/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />

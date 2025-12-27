@@ -71,7 +71,7 @@ export function Hero() {
                 </a>
               </Button>
             </div>
-            <div className="flex gap-4 pt-4">
+            <div className="flex flex-wrap justify-center gap-4 pt-4 pb-8 md:flex-nowrap md:justify-start md:pb-4">
               <a
                 href="https://github.com/moneesh05"
                 target="_blank"
